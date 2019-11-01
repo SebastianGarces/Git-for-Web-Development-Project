@@ -1,0 +1,88 @@
+/* Color Theme Swatches in Hex */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    border: 20px solid #a9d9d9;
+    font-size: 20px;
+    color: rgb(63, 63, 63);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #f28e85;
+    text-align: center;
+    font-size: 2.2em;
+}
+
+h1:hover {
+    color: #a9d9d9;
+}
+
+p {
+    font-size: 1.4rem;
+    line-height: 1.2em;
+}
+
+header p {
+    background-color: #f0f2eb;
+    padding: 3em;
+    margin: 0;
+}
+
+header p:hover {
+    background-color: #d9cdb8;
+    padding: 3em;
+    margin: 0;
+}
+
+.section-a {
+    padding: 4em;
+    background-color: #a9d9d9;
+    color: #e05770;
+}
+
+.section-a:hover {
+    padding: 4em;
+    background-color: #f26d85;
+    color: #f0f2eb;
+}
+
+h3 {
+    font-size: 1.7em;
+}
+
+.section-b h3 {
+    text-transform: uppercase;
+    color: #82b8b8;
+}
+
+.section-b h3:hover {
+    text-transform: none;
+    color: #f28e85;
+}
+
+.section-b__p:hover {
+    color: #f28e85;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    margin: 120px 0;
+}
+
+.gallery img:hover {
+    border-radius: 50px;
+    border: 10px dotted #f26d85;
+}
+
+.gallery img {
+    transition: all 150ms ease-in-out;
+    max-width: 200px;
+}
